@@ -1,0 +1,27 @@
+#include <stdio.h>
+Int main() {
+  Char op;
+  Double first, second;
+  Printf(“Enter an operator (+, -, *, /): “);
+  Scanf(“%c”, &op);
+  Printf(“Enter two operands: “);
+  Scanf(“%lf %lf”, &first, &second);
+  Switch (op) {
+    Case ‘+’:
+      Printf(“%.1lf + %.1lf = %.1lf”, first, second, first + second);
+      Break;
+    Case ‘-‘:
+      Printf(“%.1lf - %.1lf = %.1lf”, first, second, first – second);
+      Break;
+    Case ‘*’:
+      Printf(“%.1lf * %.1lf = %.1lf”, first, second, first * second);
+      Break;
+    Case ‘/’:
+      Printf(“%.1lf / %.1lf = %.1lf”, first, second, first / second);
+      Break;
+    Default:
+      Printf(“Error! Operator is not correct”);
+  }
+  Return 0;
+}
+
