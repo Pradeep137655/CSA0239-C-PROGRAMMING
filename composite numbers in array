@@ -1,0 +1,21 @@
+#include<stdio.h>
+Void main (){
+    Int I,n,a[100],count=0;
+    Printf(“enter size:”);
+    Scanf(“%d”,&n);
+    Printf(“enter elements\n”);
+    For(i=0;i<n;i++){
+        Scanf(“%d”,&a[i]);
+    }
+    For(i=0;i<n;i++){
+       If(a[i]==2){
+          Continue;
+       }       
+        Else if(a[i]%2==0){
+         Count++;
+        }
+    }
+        If(count>2){    
+        }
+       Printf(“total composite number are: %d”,count);
+ }
