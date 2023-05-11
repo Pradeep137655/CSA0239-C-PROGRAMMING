@@ -1,0 +1,17 @@
+#include <stdio.h>
+Int main() {
+    Int n, I;
+    Unsigned long long fact = 1;
+    Printf(“Enter an integer: “);
+    Scanf(“%d”, &n);
+    If (n < 0)
+        Printf(“Error! Factorial of a negative number doesn’t exist.”);
+    Else {
+        For (I = 1; I <= n; ++i) {
+            Fact *= I;
+        }
+        Printf(“Factorial of %d = %llu”, n, fact);
+    }
+    Return 0;
+}
+
